@@ -1,0 +1,1 @@
+Uses Android Slider Preference from here: https://github.com/jayschwa/AndroidSliderPreference
