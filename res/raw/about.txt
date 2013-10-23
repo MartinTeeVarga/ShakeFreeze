@@ -1,0 +1,11 @@
+<h1>Shake Freeze</h1>
+<p>Shake to rotate screen by sm4, Kulíš Android</p>
+<p>This app is attention-ware. If you like the app, please rate it in Google Play store,
+follow my website, +1 on G+, like my page on Facebook and/or follow my Twitter.</p>
+<p>
+	<a href="http://android.kul.is/">Website</a> (incl. source code)<br/><br/>
+	<a href="https://play.google.com/store/apps/details?id=is.kul.shakefreeze">Google Play store</a><br/><br/>
+	<a href="https://plus.google.com/105244234648518107793/posts">Google+</a><br/><br/>
+	<a href="http://www.facebook.com/KulisAndroid">Facebook</a><br/><br/>
+	<a href="https://twitter.com/KulisAndroid">Twitter</a>
+</p>

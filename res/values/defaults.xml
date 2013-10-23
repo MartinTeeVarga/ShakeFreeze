@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <item name="sensitivity_default" format="float" type="string">0.5</item>
+       <item name="shakes_to_rotate_default" format="float" type="string">0.3</item>
+       <item name="start_on_boot" format="boolean" type="string">false</item>
+</resources>

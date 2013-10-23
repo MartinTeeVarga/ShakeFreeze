@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shake Freeze</string>
+
+    
+    <string name="n_title">Shake Freeze is running</string>
+    <string name="n_content_shake">Shake to rotate the screen.</string>
+    <string name="n_content_tilt">Tilt to rotate the screen.</string>
+    
+    <string name="ui_service_status">Service status</string>
+    <string name="ui_service_desc">Allows shake to rotate when On</string>
+    <string name="ui_orientation_locked">Auto-rotate screen</string>
+
+    <string name="ui_orientation_control_tilt">Tilt</string>
+    <string name="ui_orientation_control_shake">Shake</string>
+    <string name="ui_orientation_control_locked">Locked</string>
+    	
+    <string name="ui_0_deg">0°</string>
+    <string name="ui_90_deg">90°</string>
+    <string name="ui_180_deg">180°</string>
+    <string name="ui_270_deg">270°</string>
+    
+    <string name="pref_start_on_boot">Start service automatically</string> <!-- a.k.a. booty-shake -->
+    <string name="pref_start_on_boot_key">pref_start_on_boot</string>
+    <string name="pref_start_on_boot_summary">Background service will be started on device start.</string> 
+    
+    <string name="pref_sensitivity">Sensitivity</string>
+    <string name="pref_sensitivity_key">pref_sensitivity</string>
+    <string name="pref_sensitivity_desc">Less sensitivity means stronger shakes are needed.</string>
+    <string-array name="pref_sensitivity_summaries">
+        <item>Vigorous shake</item>
+        <item>Strong shake</item>
+        <item>Normal shake</item>
+        <item>Light shake</item>
+        <item>A little stir</item>
+    </string-array>
+    
+    <string name="pref_shakes_to_rotate">Shakes to rotate</string>
+    <string name="pref_shakes_to_rotate_key">pref_shakes_to_rotate</string>
+    <string name="pref_shakes_to_rotate_desc">How many shakes approximately you need to rotate the screen</string>
+    <string-array name="pref_shakes_to_rotate_summaries">
+        <item>A couple</item>
+        <item>More then a couple</item>
+        <item>About four or five</item>
+        <item>Half a dozen</item>
+        <item>Seven - Eight</item>
+        <item>Nine-ish</item>
+        <item>About a dozen</item>
+        <item>More than a dozen</item>
+        <item>Your hand will hurt</item>
+    </string-array> 
+    
+    <string name="pref_user_rotation">User rotation</string>
+    <string name="pref_user_rotation_summary">Manual control of the rotation</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="ui_goto_help">Tap on menu in top-right corner for more help. Please check the About as well!</string>
+    
+    <string name="ui_help_desc">
+        Shake the phone along X and Y to change orientation
+        and along Z axis to switch tilt/shake.
+    </string>
+        
+    <string name="ui_help_example">
+    	Example: Turn on the service and switch to Shake mode. 
+    	Then hold the phone in landscape and shake up and down (X axis).
+        Landscape will be locked in all apps that have no orientation
+        preference.
+	</string>
+    <string name="ui_help_example2">
+    	Example2: Turn on the service and shake the phone towards/away (Z axis)
+    	from yourself to switch between shake and tilt control.
+	</string>
+    <string name="ui_help_example3">
+    	See screenshots in the store for more help.
+	</string>
+    <string name="ui_help_lock_toggle">
+	    Toggle Tilt/Shake has same effect as Auto-Rotation setting 
+	    On/Off. When the service is off, shaking has no effect.
+	    Use the buttons for manual control. 
+	</string>
+    
+	<string name="ui_help_note">
+	    Note that the orientation enforcement works only in apps,
+	    that do not have any orientation preference. It works in 
+	    browsers, some movie players, facebook etc. But it does not
+	    work in games and on home screen.
+	</string>
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<net.jayschwa.android.preference.SliderPreference
+        android:defaultValue="@string/sensitivity_default"
+        android:dialogMessage="@string/pref_sensitivity_desc"
+        android:key="@string/pref_sensitivity_key"
+        android:summary="@array/pref_sensitivity_summaries"
+        android:title="@string/pref_sensitivity" />
+	
+	<net.jayschwa.android.preference.SliderPreference
+        android:defaultValue="@string/shakes_to_rotate_default"
+        android:dialogMessage="@string/pref_shakes_to_rotate_desc"
+        android:key="@string/pref_shakes_to_rotate_key"
+        android:summary="@array/pref_shakes_to_rotate_summaries"
+        android:title="@string/pref_shakes_to_rotate" />
+        
+    <CheckBoxPreference
+        android:key="@string/pref_start_on_boot_key"
+        android:title="@string/pref_start_on_boot"
+        android:summary="@string/pref_start_on_boot_summary"
+        android:defaultValue="@string/start_on_boot" />
+
+</PreferenceScreen>
